@@ -1,6 +1,6 @@
 local utils
 
-local function utils.file_exists(name)
+function utils.file_exists(name)
 	local f = io.open(name, "r")
 	if f ~= nil then
 		io.close(f)
