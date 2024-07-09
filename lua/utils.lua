@@ -1,4 +1,4 @@
-local utils
+local utils = {}
 
 function utils.file_exists(name)
 	local f = io.open(name, "r")
